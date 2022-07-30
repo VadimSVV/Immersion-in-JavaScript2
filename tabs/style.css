@@ -9,7 +9,7 @@ h1 {
     align-items: center;
     flex-flow: column;
 }
-#tabs {
+#tabs, #tabs-in {
     display: flex;
 }
 .tab-btn {

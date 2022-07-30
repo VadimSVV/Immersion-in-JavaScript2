@@ -55,3 +55,11 @@ dots.forEach((item, indexDot) => {
 
 next.addEventListener('click', nextSlide);
 prev.addEventListener('click', prevSlide);
+
+const id = setInterval(() => {
+    if (index === 2) {
+        clearInterval(id);
+        return;
+    }
+    nextSlide();
+}, 2000);

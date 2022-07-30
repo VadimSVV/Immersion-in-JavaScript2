@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>2.Tabs</title>
+    <title>Tabs</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,11 +14,22 @@
             <div class="tab-btn active" data-btn="1">1</div>
             <div class="tab-btn" data-btn="2">2</div>
             <div class="tab-btn" data-btn="3">3</div>
+            <!-- <div class="tab-btn" data-btn="1">1</div>
+            <div class="tab-btn" data-btn="2">2</div> -->
         </div>
         <div id="contents">
             <div class="content active" data-content="1">Content 1</div>
             <div class="content" data-content="2">Content 2</div>
-            <div class="content" data-content="3">Content 3</div>
+            <div class="content" data-content="3">
+                <div id="tabs-in">
+                    <div class="tab-btn active" data-btn="1">1</div>
+                    <div class="tab-btn" data-btn="2">2</div>
+                </div>
+                <div id="contents-in">
+                    <div class="content active" data-content="1">Content in 1</div>
+                    <div class="content" data-content="2">Content in 2</div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="main.js"></script>
