@@ -1,8 +1,5 @@
-Запустить окно с туристической сводкой:
-https://VadimSVV.github.io/Immersion-in-JavaScript2/modal
+<a href="https://VadimSVV.github.io/Immersion-in-JavaScript2/modal" target="_blank">Окно с туристической сводкой</a>
 
-Запустить автоматический слайдер:
-https://VadimSVV.github.io/Immersion-in-JavaScript2/slider
+<a href="https://VadimSVV.github.io/Immersion-in-JavaScript2/slider" target="_blank">Автоматический слайдер</a>
 
-Запустить окно с переключением:
-https://VadimSVV.github.io/Immersion-in-JavaScript2/tabs
+<a href="https://VadimSVV.github.io/Immersion-in-JavaScript2/tabs" target="_blank">Окно с переключением</a>
